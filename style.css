@@ -1,0 +1,22 @@
+.number-card {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f9fa;
+  border: 2px solid #dee2e6;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 18px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.number-card.selected {
+  background-color: #198754 !important;
+  color: white;
+  border-color: #146c43;
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(25, 135, 84, 0.5);
+}
